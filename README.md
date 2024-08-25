@@ -16,7 +16,11 @@ The API provides a simple interface for sending tasks to the agent and receiving
 
 2. **Update the repository with the new API files**:
    - Add `main_api.py` to the root directory.
-   - Update the `requirements.txt` to include the necessary dependencies for FastAPI and Uvicorn.
+   - Update the `requirements.txt` to include the necessary dependencies for FastAPI and Uvicorn:
+     ```plaintext
+     fastapi==0.95.1
+     uvicorn==0.22.0
+     ```
 
 3. **Install the dependencies**:
    Make sure you have Python 3.8+ installed. Then, create a virtual environment and install the dependencies:
